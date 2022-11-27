@@ -38,6 +38,7 @@
   }
   .introducao h1 {
     font-size: 2rem;
+    line-height: 1.5rem;
   }
 
   .introducao h1::before {
