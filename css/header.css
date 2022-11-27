@@ -31,7 +31,7 @@
   }
 
   .header a {
-    background: #f5f5f5;
+    background: var(--menu-bg);
     border-radius: 4px;
   }
 }
