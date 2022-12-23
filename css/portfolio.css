@@ -50,8 +50,8 @@
 }
 
 .portfolio__lista {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-bottom: 60px;
 }
@@ -109,5 +109,9 @@
 
   .portfolio__texto {
     font-size: 1.25rem;
+  }
+
+  .portfolio__lista {
+    grid-template-columns: 1fr;
   }
 }
